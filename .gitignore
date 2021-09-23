@@ -1,0 +1,62 @@
+node_modules
+.npmrc
+package-lock.json
+yarn.lock
+/dist
+
+venv/
+
+config/lib/*.jar
+workingfiles/
+
+*.7z
+*.zip
+*.gz
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+lerna-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.ipr
+*.iws
+
+out/
+
+
+### Java template
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+.gradle
+gradle/wrapper
+gradlew
+gradlew.bat
+
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
